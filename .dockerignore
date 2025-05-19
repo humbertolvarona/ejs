@@ -6,3 +6,4 @@ tests
 *.env
 Dockerfile
 docker-compose.yml
+LICENSE
