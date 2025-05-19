@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  app-prod:
+    image: humbertovarona/ejs:latest:1.0
+    container_name: app-express-prod
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      JWT_SECRET: "YOUR_SECRET_KEY"
+      JWT_EXPIRES_IN: "2h"
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/usr/src/app
+  app-dev:
+    image: humbertovarona/ejs:latest:1.0
+    container_name: app-express-dev
+    restart: unless-stopped
+    environment:
+      NODE_ENV: development
+      JWT_SECRET: "YOUR_SECRET_KEY"
+      JWT_EXPIRES_IN: "2h"
+      PORT: 3001
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./app:/usr/src/app
+      - ./db/database_dev.sqlite:/usr/src/app/database.sqlite
