@@ -15,7 +15,6 @@ Includes healthcheck support, dynamic dependency installation, and hot-reload (N
 ## Features
 
 - Based on: `node:lts-alpine3.20`
-- Bundled with SQLite, curl, jq, nano
 - Loads `.env` variables automatically
 - Dynamic dependency installation via `start.sh`
 - Hot-reload support with Nodemon in development
