@@ -111,7 +111,7 @@ You can use Docker Compose to manage multi-profile environments (production, dev
 **docker-compose.yml:**
 
 ```yaml
-version: "3.9"
+version: "3"
 
 services:
   app-prod:
