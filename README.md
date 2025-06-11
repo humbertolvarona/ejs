@@ -5,6 +5,8 @@
 [![Node](https://img.shields.io/badge/Node-22.15.1-blue.svg)](https://nodejs.org/)
 [![NPM](https://img.shields.io/badge/NPM-10.9.2-orange)](https://www.npmjs.com/)
 
+[![Docker badge](https://img.shields.io/badge/Docker-Ready-8d8600?style=plastic&logo=docker)](http://hub.docker.com/)
+
 ## 📘 Overview
 
 A universal Docker container for Node.js (Express.js) applications based on Alpine Linux. Supports both development and production, pre-installed with SQLite, curl, jq, nano and more.
