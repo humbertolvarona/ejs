@@ -1,11 +1,9 @@
 # EJS: Universal Espress.js Docker Container
 
-[![Docker](https://img.shields.io/badge/Docker-ready-blue)](https://www.docker.com/)
+[![Docker badge](https://img.shields.io/badge/Docker-ready-8d8600?style=plastic&logo=docker)](http://hub.docker.com/)
 [![Alpine](https://img.shields.io/badge/Alpine-3.20-blue.svg)](https://alpinelinux.org)
 [![Node](https://img.shields.io/badge/Node-22.15.1-blue.svg)](https://nodejs.org/)
 [![NPM](https://img.shields.io/badge/NPM-10.9.2-orange)](https://www.npmjs.com/)
-
-[![Docker badge](https://img.shields.io/badge/Docker-Ready-8d8600?style=plastic&logo=docker)](http://hub.docker.com/)
 
 ## 📘 Overview
 
